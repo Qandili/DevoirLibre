@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamedelqandili/CLionProjects/DevoirLibre/evenement.cpp
+evenement.h
+/Users/mohamedelqandili/CLionProjects/DevoirLibre/evenement.h
+iostream
+-
+string
+-
+fstream
+-
+
+/Users/mohamedelqandili/CLionProjects/DevoirLibre/evenement.h
+iostream
+-
+string
+-
+timing.h
+/Users/mohamedelqandili/CLionProjects/DevoirLibre/timing.h
+fstream
+-
+
+/Users/mohamedelqandili/CLionProjects/DevoirLibre/timing.h
+
