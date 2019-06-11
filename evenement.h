@@ -18,6 +18,7 @@ namespace TIME{
         virtual ostream& operator<<(ostream& out);
     };
 
+
     class Evt1jDur:public Evt1j{
         public:
         Horaire horaire;
