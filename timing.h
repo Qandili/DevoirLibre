@@ -1,59 +1,29 @@
-//
-// Created by mohamed elqandili on 5/29/19.
-//
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+class Date{
+    int jour, mois, annee;
+    public :
+    Date(int j, int m, int a):jour(j),mois(m),annee(a){};
+    friend ostream &operator<<(ostream &out,Date const& d );
+};
+class Horaire{
+    int heure;
+    int minute;
+    public :
+    Horaire(int h, int m):heure(h),minute(m){};
 
-#ifndef DEVOIRLIBRE_TIMING_H
-#define DEVOIRLIBRE_TIMING_H
+    friend ostream &operator<<(ostream &out,Horaire const& H );
+};
 
+class Duree{
+    int heure;
+    int minute;
+    public :
+    Duree(int h, int m):heure(h),minute(m){};
+    Duree(int m):heure(0),minute(m){};
 
-#include <ostream>
-
-namespace Time {
-    //La classe Date//
-    class Date{
-    private:
-        int jour, mois, annee;
-    public:
-        Date (int jour , int mois , int annee);
-
-        Date ();
-
-        void afficher();
-        virtual ~Date ();
-
-        friend std::ostream &operator<< (std::ostream &os , const Date &date);
-    };
-
-
-    //*********************//
-    //La classe Horaire//
-    class Horaire{
-    private:
-        int hour, mins;
-    public:
-        Horaire (int hour , int mins);
-
-        Horaire ();
-
-        void afficher();
-
-        virtual ~Horaire ();
-    };
-    //*********************//
-    //La classe Duree//
-    class Duree{
-    private:
-        int hours,minsD;
-    public:
-        Duree ();
-
-        Duree (int hours , int minsD);
-
-        void afficher();
-
-        virtual ~Duree ();
-    };
+    friend ostream &operator<<(ostream &out,Duree const& d );
 };
 
 
-#endif //DEVOIRLIBRE_TIMING_H
