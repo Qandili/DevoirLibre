@@ -14,6 +14,7 @@ class Horaire{
     Horaire(int h, int m):heure(h),minute(m){};
 
     friend ostream &operator<<(ostream &out,Horaire const& H );
+
 };
 
 class Duree{

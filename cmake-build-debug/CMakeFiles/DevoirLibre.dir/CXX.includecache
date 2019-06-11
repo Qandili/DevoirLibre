@@ -6,25 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/mohamedelqandili/CLionProjects/DevoirLibre/evenement.cpp
+/Users/mohamedelqandili/Downloads/DevoirLibre/evenement.cpp
 evenement.h
-/Users/mohamedelqandili/CLionProjects/DevoirLibre/evenement.h
+/Users/mohamedelqandili/Downloads/DevoirLibre/evenement.h
 iostream
 -
-string
--
-fstream
--
 
-/Users/mohamedelqandili/CLionProjects/DevoirLibre/evenement.h
+/Users/mohamedelqandili/Downloads/DevoirLibre/evenement.h
 iostream
 -
 string
 -
 timing.h
-/Users/mohamedelqandili/CLionProjects/DevoirLibre/timing.h
-fstream
--
+/Users/mohamedelqandili/Downloads/DevoirLibre/timing.h
 
-/Users/mohamedelqandili/CLionProjects/DevoirLibre/timing.h
+/Users/mohamedelqandili/Downloads/DevoirLibre/main.cpp
+iostream
+-
+evenement.h
+/Users/mohamedelqandili/Downloads/DevoirLibre/evenement.h
+
+/Users/mohamedelqandili/Downloads/DevoirLibre/timing.h
+iostream
+-
+stdio.h
+-
 
